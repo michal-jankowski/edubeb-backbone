@@ -1,0 +1,337 @@
+// *--------- TABS ---------*
+.app-main-tabs {
+    display: none; // jQuery
+    border-top: 1px $tabsBorderColor solid;
+    border-bottom: 1px $tabsBorderColor solid;
+    box-shadow: inset 0 1px 0 #fff;
+    background-color: $generalDimmedBgColor;
+
+    font-size: 0;
+    line-height: 0;
+
+    &.active {
+        display: block;
+    }
+
+    a {
+        display: inline-block;
+        min-width: 265px;
+        height: 80px;
+        padding: 0 30px;
+        border-right: 1px $tabsBorderColor solid;
+        box-shadow: inset 0 1px 0 #fff;
+        background-color: $tabsBgColor;
+
+        font-size: 22px;
+        line-height: 82px;
+        color: $generalTextColor;
+
+        .fa {
+            margin-right: 10px;
+
+            opacity: 0.3;
+
+            position: relative;
+            top: 4px;
+
+            font-size: 36px;
+        }
+
+        // ACTIVE
+        &.active {
+            background-color: $generalBgColor;
+
+            position: relative;
+
+            &:after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: $generalBgColor;
+
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+            }
+        }
+    }
+}
+
+// *--------- CONTENT ---------*
+.app-content-wrapper {
+    padding: 30px;
+
+    @extend %clearfix;
+}
+
+    .app-content,
+    .app-content-sidebar {
+        border-radius: 5px;
+        border: 1px lighten($generalBorderColor, 10%) solid;
+        box-shadow: -1px 0 4px rgba(0, 0, 0, .07);
+    }
+
+    .app-content {
+        width: calc(70% - 10px);
+        float: left;
+    }
+
+    .app-content-sidebar {
+        width: calc(30% - 10px);
+        float: right;
+    }
+
+    .app-items-list {
+
+        li {
+            padding: 30px;
+            border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+            font-size: 18px;
+
+            @extend %transitionAll;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            .client,
+            .date {
+                display: inline-block;
+                margin-left: 20px;
+
+                opacity: 0.5;
+
+                font-size: 14px;
+
+                .fa {
+                    margin-right: 5px;
+                }
+            }
+
+            .details {
+                float: right;
+
+                position: relative;
+                top: -7px;
+            }
+
+            // HOVER
+            &:hover {
+                background-color: lighten($generalDimmedBgColor, 4%);
+            }
+        }
+
+            .counter {
+                display: inline-block;
+                padding: 7px 10px;
+                margin-right: 20px;
+                border-radius: 5px;
+                background-color: $generalSpecialColor;
+
+                color: $mainCounterColor;
+            }
+    }
+
+        .app-items-pagination {
+            padding: 30px;
+            border-top: 1px lighten($generalBorderColor, 10%) solid;
+
+            font-size: 0;
+            line-height: 0;
+            text-align: center;
+
+            a {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                margin: 0 4px;
+                border-radius: 50%;
+                border: 1px lighten($generalBorderColor, 10%) solid;
+
+                font-size: 14px;
+                line-height: 34px;
+                color: lighten($generalTextColor, 40%);
+
+                @extend %transitionAll;
+
+                &:hover,
+                &.active {
+                    border-color: $generalSpecialColor;
+                    background-color: $generalSpecialColor;
+
+                    color: $generalSpecialTextColor;
+                }
+            }
+        }
+
+    .app-item-info {
+        padding: 30px 0;
+
+        @extend %clearfix;
+
+        p {
+            padding: 30px 30px;
+            border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+            @extend %clearfix;
+            @extend %transitionAll;
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+
+            span {
+                display: inline-block;
+                min-width: 140px;
+
+                color: lighten($generalTextColor, 20%);
+            }
+
+            i {
+                width: calc(100% - 140px);
+                float: right;
+
+                line-height: 26px;
+            }
+        }
+
+        .btn {
+            margin-top: 30px;
+            margin-right: 30px;
+            float: right;
+        }
+    }
+
+    // *--------- ACTIONS ---------*
+    .app-actions {
+        padding: 30px;
+        border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+        position: relative;
+
+        @extend %clearfix;
+
+        .add {
+            float: right;
+        }
+    }
+
+        .app-search {
+            width: 40%;
+            float: left;
+
+            input[type='text'] {
+                width: 100%;
+                height: 35px;
+                border: none;
+                background: none;
+
+                font-family: $droidsans;
+                font-size: 18px;
+                color: lighten($generalTextColor, 45%);
+            }
+
+            @include placeholder {
+                color: lighten($generalTextColor, 45%);
+            }
+        }
+
+        .app-sort {
+            border: 1px lighten($generalBorderColor, 10%) solid;
+            border-radius: 20px;
+            background: $generalBgColor url(../images/sort_arrow.png) 90% 16px no-repeat;
+
+            position: absolute;
+            top: 30px;
+            right: 75px;
+
+            cursor: pointer;
+
+            li {
+                display: none;
+                width: 160px;
+                height: 35px;
+                padding: 0 20px;
+
+                font-size: 15px;
+                line-height: 36px;
+                color: lighten($generalTextColor, 25%);
+
+                @extend %transitionColor;
+
+                &:first-child {
+                    display: block;
+                }
+
+                &:hover {
+                    color: $generalSpecialColor;
+                }
+            }
+
+            // HOVER
+            &:hover {
+
+
+                li {
+                    display: block;
+                }
+            }
+        }
+
+    // *--------- CONTENT SIDEBAR ---------*
+    .app-content-sidebar {
+
+        h3 {
+            padding: 30px;
+            border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+            font-size: 16px;
+
+
+            .fa {
+                margin-right: 10px;
+            }
+        }
+    }
+
+        .app-latest-rents {
+
+            li {
+                padding: 20px 30px;
+                border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+                cursor: pointer;
+
+                font-size: 14px;
+                line-height: 22px;
+
+                @extend %transitionAll;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                // HOVER
+                &:hover {
+                    background-color: lighten($generalDimmedBgColor, 4%);
+                }
+            }
+
+                .movie {
+                    font-style: italic;
+                    color: lighten($generalTextColor, 30%);
+                }
+
+                .date {
+                    display: block;
+
+                    font-size: 12px;
+                    color: lighten($generalTextColor, 45%);
+                }
+        }

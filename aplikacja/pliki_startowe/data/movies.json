@@ -1,0 +1,418 @@
+[
+   {
+      "title":"Waleczny do końca",
+      "date":"14-12-1999",
+      "categories":[
+         "thriller",
+         "wojenny"
+      ],
+      "actors":[
+         "Denise Banks",
+         "Ashley Hanson"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie"
+   },
+   {
+      "title":"A to dobre!",
+      "date":"23-07-2008",
+      "categories":[
+         "komedia"
+      ],
+      "actors":[
+         "Johnny Myers",
+         "Edward Webb"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Niezapomniana podróż",
+      "date":"24-03-2002",
+      "categories":[
+         "sci-fi"
+      ],
+      "actors":[
+         "Louis Daniels",
+         "Catherine Welch",
+         "Bobby Tran"
+      ],
+      "quantity":"15",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Potęga umysłu",
+      "date":"29-08-2006",
+      "categories":[
+         "dramat",
+         "thriller"
+      ],
+      "actors":[
+         "Johnny Myers",
+         "Stephanie Schultz",
+         "Tiffany Ortiz"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Na zawsze Twoja",
+      "date":"23-12-2005",
+      "categories":[
+         "romans"
+      ],
+      "actors":[
+         "Margaret Rogers",
+         "Edward Webb"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Nasze prawdy, wasze kłamstwa",
+      "date":"09-01-2010",
+      "categories":[
+         "dokumentalny"
+      ],
+      "actors":[
+         "Evelyn Thomas",
+         "Vincent Salazar",
+         "Susan Hall"
+      ],
+      "quantity":"10",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Teksańska masakra młotkiem do kotletów",
+      "date":"26-10-2003",
+      "categories":[
+         "horror"
+      ],
+      "actors":[
+         "Eugene Howell",
+         "Paul Reynolds"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Kosmiczni bracia",
+      "date":"08-05-2012",
+      "categories":[
+         "sci-fi",
+         "kryminał"
+      ],
+      "actors":[
+         "Rose Morgan",
+         "Sandra Price",
+         "Daniel Chapman"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Głupi i mądry",
+      "date":"12-06-2003",
+      "categories":[
+         "komedia"
+      ],
+      "actors":[
+         "Christopher Berry",
+         "Michael Fisher"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Głupi i mądry 2",
+      "date":"05-05-2008",
+      "categories":[
+         "komedia"
+      ],
+      "actors":[
+         "Christopher Berry",
+         "Michael Fisher"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Na tropie wroga",
+      "date":"18-11-2013",
+      "categories":[
+         "thriller",
+         "kryminał"
+      ],
+      "actors":[
+         "Gregory Lynch",
+         "Jeremy Newman"
+      ],
+      "quantity":"15",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"W okopach wojny",
+      "date":"14-07-2012",
+      "categories":[
+         "wojenny",
+         "dramat"
+      ],
+      "actors":[
+         "Jeremy Newman",
+         "Roger Meyer",
+         "Rose Lucas"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Marsjanie atakują",
+      "date":"09-10-2004",
+      "categories":[
+         "sci-fi",
+         "komedia"
+      ],
+      "actors":[
+         "Frank Patterson",
+         "Harold Thomas"
+      ],
+      "quantity":"15",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Żywy?",
+      "date":"19-03-2007",
+      "categories":[
+         "horror"
+      ],
+      "actors":[
+         "Harold Thomas",
+         "Steven James"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Najdroższy",
+      "date":"06-12-2011",
+      "categories":[
+         "romans"
+      ],
+      "actors":[
+         "Katherine Castillo",
+         "Charles Burns"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Wodny świat",
+      "date":"05-05-2006",
+      "categories":[
+         "dokumentalny"
+      ],
+      "actors":[
+         "Hannah Wood",
+         "Nicholas Allen",
+         "Andrew Adams"
+      ],
+      "quantity":"10",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Ciekawość Bourne'a",
+      "date":"22-06-2014",
+      "categories":[
+         "thriller"
+      ],
+      "actors":[
+         "Lawrence Day",
+         "Stephen Davidson",
+         "Gloria Little"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Zrób to jeszcze raz!",
+      "date":"06-02-2003",
+      "categories":[
+         "komedia",
+         "romans"
+      ],
+      "actors":[
+         "Alan Stevens",
+         "Russell Perkins",
+         "Ashley Young"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Steward w opałach",
+      "date":"24-05-2009",
+      "categories":[
+         "komedia"
+      ],
+      "actors":[
+         "Ashley Young",
+         "Philip Vargas"
+      ],
+      "quantity":"15",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Myśliwy",
+      "date":"01-09-2009",
+      "categories":[
+         "horror",
+         "kryminał"
+      ],
+      "actors":[
+         "Billy Gomez",
+         "Brenda Gardner",
+         "Heather Long"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Matko ma",
+      "date":"07-07-2011",
+      "categories":[
+         "dramat",
+         "thriller"
+      ],
+      "actors":[
+         "Lauren McCoy",
+         "Ralph Murphy"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Tańczący z diabłem",
+      "date":"08-09-2005",
+      "categories":[
+         "horror"
+      ],
+      "actors":[
+         "Michael Webb",
+         "Alan Morales",
+         "Marie Garza"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Śmiej się i tańcz!",
+      "date":"17-04-2010",
+      "categories":[
+         "komedia"
+      ],
+      "actors":[
+         "Angela Stone",
+         "Harry Pearson"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Na froncie",
+      "date":"26-06-1998",
+      "categories":[
+         "wojenny",
+         "dramat"
+      ],
+      "actors":[
+         "Gerald Lucas",
+         "Dennis Evans",
+         "Kevin Reid"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Gwiezdne starcie",
+      "date":"09-03-2012",
+      "categories":[
+         "sci-fi"
+      ],
+      "actors":[
+         "Henry Fields",
+         "Jason Nguyen"
+      ],
+      "quantity":"20",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Potworki atakują",
+      "date":"22-12-2013",
+      "categories":[
+         "sci-fi",
+         "komedia"
+      ],
+      "actors":[
+         "Phillip Myers",
+         "Joyce Richardson"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Cichy zabójca",
+      "date":"15-10-2007",
+      "categories":[
+         "kryminał"
+      ],
+      "actors":[
+         "Howard Butler",
+         "Brian Harris"
+      ],
+      "quantity":"30",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Jedenasty element",
+      "date":"04-05-2013",
+      "categories":[
+         "thriller"
+      ],
+      "actors":[
+         "Brenda Duncan",
+         "Steven Burton",
+         "Sarah Graham"
+      ],
+      "quantity":"25",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"To tylko ja!",
+      "date":"16-11-2003",
+      "categories":[
+         "komedia",
+         "romans"
+      ],
+      "actors":[
+         "Marie Sandoval",
+         "Ryan Berry"
+      ],
+      "quantity":"15",
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   },
+   {
+      "title":"Pocałunek na dobranoc",
+      "date":"13-08-2001",
+      "categories":[
+         "kryminał",
+         "thriller"
+      ],
+      "actors":[
+         "Ryan Berry",
+         "Ethan Morrison",
+         "Daniel Curtis"
+      ],
+      "quantity":40,
+      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+   }
+]

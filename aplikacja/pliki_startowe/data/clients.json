@@ -1,0 +1,29 @@
+[
+   {
+      "first_name":"Jan",
+      "last_name":"Kowalski",
+      "birthdate":"22-12-1978",
+      "idc_number":"ARX029927",
+      "address":"ul. Słoneczna 12",
+      "zip_code":"35-591",
+      "city":"Kraków"
+   },
+   {
+      "first_name":"Anna",
+      "last_name":"Nowak",
+      "birthdate":"12-03-1988",
+      "idc_number":"ARB335909",
+      "address":"ul. Parkowa 33a",
+      "zip_code":"45-033",
+      "city":"Kraków"
+   },
+   {
+      "first_name":"Tomasz",
+      "last_name":"Lubicz",
+      "birthdate":"03-01-1982",
+      "idc_number":"ARD119873",
+      "address":"ul. Maślana 105",
+      "zip_code":"36-234",
+      "city":"Bochnia"
+   }
+]

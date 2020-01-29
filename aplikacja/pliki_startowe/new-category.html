@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>VideoRental</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app-wrapper">
+
+    <div class="app-sidebar">
+
+        <div class="app-logo">
+            <img src="images/logo.png" alt="">
+        </div>
+
+        <div class="app-sidebar-sep">
+            <i class="fa fa-ellipsis-h"></i>
+        </div>
+
+        <div class="app-sidebar-nav">
+            <a href="list-movies.html" class="active">
+                <i class="fa fa-play-circle-o"></i>
+                Baza filmów
+            </a>
+
+                <div class="app-sidebar-sep">
+                    <i class="fa fa-ellipsis-h"></i>
+                </div>
+
+            <a href="list-rents.html">
+                <i class="fa fa-calendar"></i>
+                Wypożyczalnia
+            </a>
+        </div>
+
+    </div>
+
+    <div class="app-main">
+
+        <div class="app-header">
+
+            <div class="app-breadcrumbs">
+                <span class="app-status-item">Kokpit</span>
+                <span class="app-status-item">Nowa kategoria</span>
+            </div>
+
+            <div class="app-status">
+                <span class="app-status-item"><i class="fa fa-film"></i> Filmów <strong>50</strong></span>
+                <span class="app-status-item"><i class="fa fa-thumbs-o-up"></i> Wypożyczeń <strong>12</strong></span>
+                <span class="app-status-item"><i class="fa fa-user"></i> Klientów <strong>6</strong></span>
+            </div>
+
+        </div>
+
+        <div class="app-main-tabs active" id="video-tabs">
+            <a href="list-movies.html">
+                <i class="fa fa-film"></i>
+                Filmy
+            </a>
+            <a href="list-actors.html">
+                <i class="fa fa-users"></i>
+                Aktorzy
+            </a>
+            <a href="list-categories.html" class="active">
+                <i class="fa fa-list-ol"></i>
+                Kategorie
+            </a>
+        </div>
+
+        <div class="app-main-tabs" id="rental-tabs">
+            <a href="list-rents.html">
+                <i class="fa fa-thumbs-o-up"></i>
+                Wypożyczenia
+            </a>
+            <a href="list-clients.html" class="active">
+                <i class="fa fa-user"></i>
+                Klienci
+            </a>
+        </div>
+
+        <div class="app-content-wrapper">
+
+            <div class="app-content">
+                <h3 class="app-heading"><i class="fa fa-plus"></i> Nowa kategoria</h3>
+
+                <div class="app-form">
+                    <form action="" id="new-category">
+                        <div class="app-form-field">
+                            <label for="category-name">Kategoria</label>
+                            <input type="text" id="category-name">
+                        </div>
+
+                        <div class="app-form-submit">
+                            <button type="submit" class="btn">Zapisz</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="app-content-sidebar">
+                <h3>
+                    <i class="fa fa-thumbs-o-up"></i>
+                    Ostatnie wypożyczenia
+                </h3>
+
+                <ul class="app-latest-rents">
+                    <li>
+                        <span class="client">Maciej Nowak</span>
+                        <span class="movie">Przeminęło z wiatrem 2</span>
+                        <span class="date">34 minuty temu</span>
+                    </li>
+                    <li>
+                        <span class="client">Jan Kowalski</span>
+                        <span class="movie">Przeminęło z wiatrem 3</span>
+                        <span class="date">godzinę temu</span>
+                    </li>
+                    <li>
+                        <span class="client">Alicja Kowalczyk</span>
+                        <span class="movie">Przeminęło z wiatrem</span>
+                        <span class="date">Wczoraj, 10:20</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><!-- /.app-wrapper -->
+
+</body>
+</html>

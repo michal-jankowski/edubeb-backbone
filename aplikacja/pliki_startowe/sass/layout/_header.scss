@@ -1,0 +1,46 @@
+// *--------- HEADER ---------*
+.app-header {
+    padding: 30px;
+    background-color: $generalDimmedBgColor;
+
+    @extend %clearfix;
+}
+
+    .app-breadcrumbs {
+        float: left;
+
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .app-status {
+        float: right;
+
+        font-size: 0;
+        line-height: 0;
+        text-transform: uppercase;
+    }
+
+    .app-status-item {
+        display: inline-block;
+        height: 40px;
+        padding: 0 20px;
+        margin-right: 12px;
+        border-radius: 20px;
+        border: 1px $generalBorderColor solid;
+        box-shadow: 0 1px 0 #fff;
+
+        font-size: 14px;
+        line-height: 40px;
+        white-space: nowrap;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        .fa {
+            margin-right: 8px;
+
+            font-size: 16px;
+        }
+    }

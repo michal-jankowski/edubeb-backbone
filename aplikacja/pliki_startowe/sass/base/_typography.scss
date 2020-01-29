@@ -1,0 +1,30 @@
+// *--------- FONTS ---------*
+$droidsans: "Droid Sans", sans-serif; // 400, 700
+
+// *--------- STYLES ---------*
+body {
+    font-family: $droidsans;
+    font-size: 16px;
+    font-weight: 500;
+    color: $generalTextColor;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.app-heading {
+    padding: 30px;
+    border-bottom: 1px lighten($generalBorderColor, 10%) solid;
+
+    font-size: 32px;
+
+    .fa {
+        margin-right: 10px;
+
+        position: relative;
+        top: 1px;
+
+        opacity: 0.3;
+    }
+}
